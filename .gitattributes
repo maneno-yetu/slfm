@@ -1,0 +1,5 @@
+pytorchmodel_v1.bin filter=lfs diff=lfs merge=lfs -text
+pytorchmodel_v2.bin filter=lfs diff=lfs merge=lfs -text
+models/foundation_model/pytorchmodel.bin !text !filter !merge !diff
+models/foundation_model/pytorchmodel_v1.bin filter=lfs diff=lfs merge=lfs -text
+models/foundation_model/pytorchmodel_v2.bin filter=lfs diff=lfs merge=lfs -text
